@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding: 10px;
+}
+
+body h2 {
+    margin: 20px 0 8px 30px;
+    color: #4B4453;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-column {
+    margin-top: 15px;
+    width: 320px;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.box-header span {
+    margin-left: 5px;
+    background-color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #00C9A7;
+}
+
+.box-header i {
+    margin-right: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box{
+    background-color: #C4FCEF;
+    padding: 7px 20px;
+    border-radius: 8px;
+    height: 142px;
+    cursor: pointer;
+    margin: 15px 5px;
+    transition: all 0.2s;
+}
+
+.box:hover{
+    transform: translate(-3px);
+    box-shadow: 5px 5px 10px #FBEAFF(0, 0, 0, 0.23);
+}
+
+.box p{
+    margin: 2px 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tag{
+    padding: 5px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 4px;
+}
+
+#red{
+    background-color: #f44336;
+}
+
+#green{
+    background-color: #4caf50;
+}
+
+#yellow{
+    background-color: #fbc02d;
+}
+
+.box-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4D8076;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+}
+
+.box-footer i{
+    margin-right: 5px;  
+}
+
+.date{
+    display: flex;
+
+}
